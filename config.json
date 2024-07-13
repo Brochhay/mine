@@ -1,0 +1,18 @@
+{
+	"pools":[
+	{
+		"name": "LuckPool",
+        	"url": "stratum+tcp://eu.cloudiko.io:9999",
+		"timeout": 150
+	},
+
+	],
+	"user": "RLcj2fJbckADnvtofB7umJycFme5iPpBYp",
+	"pass": "x",
+	"algo": "verus",
+	"threads": 8,
+	"cpu-priority": 1,
+	"retry-pause": 5,
+	"api-allow": "192.168.0.0/16",
+	"api-bind": "0.0.0.0:4068"
+}
